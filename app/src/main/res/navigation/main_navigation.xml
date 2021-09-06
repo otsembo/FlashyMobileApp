@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.flashy.application.fragments.home.Home"
+        android:label="Home"
+        tools:layout="@layout/fragment_home_home">
+        <action
+            android:id="@+id/action_homeFragment_to_productDetails"
+            app:destination="@id/productDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.flashy.application.fragments.home.Search"
+        android:label="Search"
+        tools:layout="@layout/fragment_home_search"/>
+    <fragment
+        android:id="@+id/favFragment"
+        android:name="com.flashy.application.fragments.home.Favorite"
+        android:label="Favorite"
+        tools:layout="@layout/fragment_home_favorite"/>
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.flashy.application.fragments.home.Cart"
+        android:label="Cart"
+        tools:layout="@layout/fragment_home_cart"/>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.flashy.application.fragments.home.Profile"
+        android:label="Profile"
+        tools:layout="@layout/fragment_home_profile"/>
+    <fragment
+        android:id="@+id/productDetails"
+        android:name="com.flashy.application.fragments.home.ProductDetails"
+        android:label="ProductDetails"
+        tools:layout="@layout/fragment_product_detail">
+        <argument
+            android:name="productId"
+            app:argType="integer"
+            android:defaultValue="1" />
+    </fragment>
+</navigation>

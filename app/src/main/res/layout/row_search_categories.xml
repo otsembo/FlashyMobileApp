@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+
+
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="@dimen/cardview_default_elevation"
+    app:cardCornerRadius="@dimen/cardview_default_radius"
+    android:layout_marginTop="2.5dip"
+    android:layout_marginBottom="2.5dip"
+    android:layout_marginEnd="5dip"
+    android:layout_marginStart="5dip"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_bold"
+            tools:text="@tools:sample/cities"
+            android:id="@+id/txt_category_title"
+            />
+
+        <ImageView
+            android:id="@+id/img_cat_banner"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            tools:srcCompat="@tools:sample/backgrounds/scenic"
+            android:contentDescription="@string/image_description" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
+</layout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dip"
+    app:cardElevation="@dimen/cardview_default_elevation"
+    app:cardCornerRadius="@dimen/cardview_default_radius">
+
+
+    <ImageView
+        android:id="@+id/favImage"
+        android:layout_width="match_parent"
+        android:layout_height="155dip"
+        android:contentDescription="@string/image_description"
+        android:foreground="@color/grid_foreground"
+        android:foregroundTint="@color/grid_foreground"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="155dip"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_cost_fav"
+            style="@style/cost_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ksh_1_200" />
+
+        <TextView
+            android:id="@+id/txt_fav_brand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cart_title_brand" />
+
+        <TextView
+            android:id="@+id/txt_fav_title_product"
+            style="@style/cost_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/shirts" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="1">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2.5dip"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="@string/size_l"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/txt_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2.5dip"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="@string/l"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2.5dip"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="@string/color_pink"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/txt_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2.5dip"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="@string/pink"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_margin="10dip"
+        android:contentDescription="@string/image_description"
+        app:srcCompat="@drawable/ic_baseline_close_24"
+        app:tint="@color/white"/>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="auth_page_title_bias">0.075</dimen>
+    <dimen name="auth_page_title_margin_top">32dip</dimen>
+    <dimen name="auth_page_title_text_size">32sp</dimen>
+    <dimen name="auth_page_title_big_margin">64dip</dimen>
+    <dimen name="auth_page_edit_text_regular_margin">7.5dip</dimen>
+
+</resources>

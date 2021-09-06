@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Flashy</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="already_registered">Already have an account?</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="login">Login</string>
+    <string name="forgot_your_password">Forgot your password</string>
+    <string name="login_u">LOGIN</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="please_enter_your_email_address_you_will_receive_a_link_to_create_a_new_password_via_email">Please enter your email address. You will receive a link to create a new password via email</string>
+    <string name="reset">RESET</string>
+    <string name="home">Home</string>
+    <string name="favorites">Favorites</string>
+    <string name="profile">Profile</string>
+    <string name="cart">Cart</string>
+    <string name="cart_title">My Bag</string>
+    <string name="promo_code">PROMO CODE</string>
+    <string name="total">TOTAL</string>
+    <string name="test_value">Ksh. 1,700</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="image_description">Image Description</string>
+    <string name="cart_title_brand">GUCCI</string>
+    <string name="ksh_1_200">Ksh 1,200</string>
+    <string name="quantity_1">QUANTITY: </string>
+    <string name="size_l">SIZE: </string>
+    <string name="color_pink">COLOR: </string>
+    <string name="move_to_fav">MOVE TO FAVORITE</string>
+    <string name="delete_from_list">DELETE FROM THE LIST</string>
+    <string name="_1">1</string>
+    <string name="l">L</string>
+    <string name="pink">PINK</string>
+    <string name="fav_title">Favorites</string>
+    <string name="price">PRICE:</string>
+    <string name="filter">FILTER</string>
+    <string name="shirts">Shirts</string>
+    <string name="winter_is_coming">WINTER IS COMING</string>
+    <string name="home_banner_title">Midseason Sale</string>
+    <string name="home_banner_detail">50% Off</string>
+    <string name="promo_code_win19">Promo code: WIN19</string>
+    <string name="arrivals">NEW ARRIVALS</string>
+    <string name="search">Search</string>
+    <string name="women">WOMEN</string>
+    <string name="kids">KIDS</string>
+    <string name="men">MEN</string>
+    <string name="my_profile">My Profile</string>
+    <string name="my_orders">My Orders</string>
+    <string name="already_have_2_orders">Already have 2 orders</string>
+    <string name="hello_mate">Hello, mate</string>
+    <string name="hello_gmail_com">hello@gmail.com</string>
+    <string name="add_to_cart">ADD TO BAG</string>
+
+    <array name="spinner_price">
+        <item>LOW TO HIGH</item>
+        <item>HIGH TO LOW</item>
+    </array>
+
+    <string name="ipsum_text">
+Curabitur hendrerit augue eget vulputate vehicula. Duis nibh metus, scelerisque nec condimentum vitae, semper rhoncus justo. Curabitur quis nibh tincidunt, faucibus sapien quis, ultrices turpis. Ut mollis urna aliquet tellus pretium consectetur. Morbi malesuada, ante eu dignissim blandit, neque eros fringilla ex, vitae hendrerit tellus nulla ac metus. Donec congue convallis imperdiet. Phasellus euismod pretium leo ac fermentum. Donec nec diam pretium, interdum sapien ac, semper turpis. Duis dui erat, maximus at elit nec, fermentum convallis ex. Nam at tortor id sapien viverra tincidunt. Praesent eu velit sit amet orci venenatis mollis. Praesent malesuada sapien nulla. Aliquam et felis hendrerit, semper nisl molestie, tempus leo. Suspendisse sodales lobortis dolor, eu rutrum massa convallis nec.
+Duis eros sem, mattis ac venenatis sed, volutpat eu orci. Sed tincidunt convallis lacus eget accumsan. Cras viverra egestas eros porttitor pharetra. Phasellus nec tempus elit. Sed semper molestie nulla. Integer et diam massa. Praesent ornare ac eros in efficitur.
+    </string>
+
+</resources>
