@@ -102,7 +102,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tilPromoCode"
-        tools:listitem="@layout/row_cart" />
+        tools:listitem="@layout/row_cart"
+        android:id="@+id/rvCart"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:orientation="vertical"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

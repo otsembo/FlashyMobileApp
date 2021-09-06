@@ -7,6 +7,7 @@ import retrofit2.Response
 import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.POST
+import retrofit2.http.Path
 
 interface ApiService {
 
@@ -26,5 +27,9 @@ interface ApiService {
     //IMAGES END POINTS
     @GET("/images")
     suspend fun getAllImages() : Response<DataResponse>
+
+    //CART END POINTS
+    @GET("/cart/mycart/{id}")
+    suspend fun getAllCartItems(@Path("id") id:Int) : Response<DataResponse>
 
 }

@@ -4,15 +4,17 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.flashy.application.database.daos.CartDAO
 import com.flashy.application.database.daos.CategoryDAO
 import com.flashy.application.database.daos.ImagesDAO
 import com.flashy.application.database.daos.ProductDAO
+import com.flashy.application.database.entities.Cart
 import com.flashy.application.database.entities.Category
 import com.flashy.application.database.entities.Images
 import com.flashy.application.database.entities.Product
 import com.flashy.application.general.AppUtil
 
-@Database(entities = [Category::class, Product::class, Images::class], version = 4)
+@Database(entities = [Category::class, Product::class, Images::class, Cart::class], version = 6)
 abstract class AppDatabase : RoomDatabase() {
     //category dao
     abstract val categoryDAO :CategoryDAO
@@ -20,6 +22,8 @@ abstract class AppDatabase : RoomDatabase() {
     abstract val productDAO  :ProductDAO
     //images dao
     abstract val imagesDAO   :ImagesDAO
+    //cart dao
+    abstract val cartDAO     :CartDAO
 
     companion object{
         @Volatile
